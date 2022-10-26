@@ -31,16 +31,20 @@
 }
 
 .nav_link{
-    font-weight: 700;
-    font-size: 15px;
+    font-weight: bold;
     line-height: 20px;
     letter-spacing: -0.468947px;
     color: #19191B;
     text-decoration: none;
 }
 
+.nav_li > a {
+    font-size: 30px;
+    color: black;
+}
+
 .nav_link:hover {
-color: black;
+color: white;
 transition: 300ms;
 }
 
@@ -55,6 +59,11 @@ transition: 300ms;
     border: none;
     border-radius: 10px;
     cursor: pointer;
+}
+
+.btn1:hover {
+    color: black;
+    border: solid 3px black;
 }
 
 .btn_orange {
